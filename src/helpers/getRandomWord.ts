@@ -1,0 +1,35 @@
+let words: string[] = [
+    'COMPUTADORA',
+    'LOLSITO',
+    'MANTEQUILLA',
+    'NAVIDAD',
+    'AREPA',
+    'TACOS',
+    'CUADERNO',
+    'MATEMATICA',
+    'COMIDA',
+    'HELADO',
+    'CANTINA',
+    'RANCHO',
+    'MUSICA',
+    'PISCINA',
+    'MINIMAPA',
+    'CASTILLO',
+    'AVION',
+    'BALON',
+    'MOTOCICLETA',
+    'CRUCERO',
+    'MAQUILLAJE',
+    'TELEVISOR',
+    'DIENTES',
+    'MEXICO',
+    'BARCELONA',
+    'GUADALAJARA',
+]
+
+
+export function getRandomWord() {
+
+    const randomIndex =  Math.floor( Math.random() * words.length );
+    return words[randomIndex];
+}
