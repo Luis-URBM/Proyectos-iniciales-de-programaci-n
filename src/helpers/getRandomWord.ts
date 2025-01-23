@@ -25,6 +25,7 @@ let words: string[] = [
     'MEXICO',
     'BARCELONA',
     'GUADALAJARA',
+    'ESPEJO'
 ]
 
 
