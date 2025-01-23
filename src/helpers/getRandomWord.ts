@@ -10,7 +10,7 @@ let words: string[] = [
     'COMIDA',
     'HELADO',
     'CANTINA',
-    'RANCHO',
+    'RANCHITO',
     'MUSICA',
     'PISCINA',
     'MINIMAPA',
